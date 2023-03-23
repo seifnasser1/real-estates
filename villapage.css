@@ -8,7 +8,7 @@
 body{
     background-color: gray;
 }
-.container{
+.container1{
     background-color: white;
     margin: 40px;
     box-shadow: 4px;
@@ -109,3 +109,23 @@ table{
     margin-bottom: 27px;
     font-size: 18px;
 }
+.top-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    padding: 10px;
+    color: #fff;
+  }
+  
+  .menu-item {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .menu-item a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+  }
