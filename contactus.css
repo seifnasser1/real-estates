@@ -39,9 +39,11 @@ body{
 .cright{
    flex-basis: 40%;
    padding: 40px ;
-   background-color:blue;
+  
+   background: color #0000FF;
    color: white;
 }
+
 h1{
    margin-bottom: 20px;
 }

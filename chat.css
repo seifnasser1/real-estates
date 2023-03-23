@@ -27,7 +27,7 @@ background-color: beige;
 .header h1{
     color: black;
     padding: 10px;
-    background-color: blue;
+    background-color: #0000FF;
 }
 .body{
     flex:1;
@@ -37,10 +37,10 @@ background-color: beige;
     padding: 20px 30px;
 }
 form{
-background-color: blue;
+background-color:#0000FF;
 }
 .message{
-    background-color: blue;
+    background-color:#0000FF;
     padding: 10px;
     color: white;
     width: fit-content;
@@ -73,7 +73,7 @@ form button{
     cursor: pointer;
 }
 form button:hoover{
-    background-color: blue;
+    background-color:#0000FF;
     transition: 0.2s ease;
 
 }
