@@ -1,8 +1,10 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
     <head>
 <title> Chat </title>
 <link rel="stylesheet" href="chat.css">
+<script type = "text/javascript" src="chat.js">
+</script>
     </head>
     <body>
 <div class="container">
@@ -20,6 +22,36 @@
                 <img class="sendicon" src="download.png" alt="send icon">
             </button>
         </form>
+    </div>
+</div>
+    </body>
+</html> -->
+<!DOCTYPE html>
+<html>
+    <head>
+<title> Chat </title>
+<link rel="stylesheet" href="chat.css">
+<script type = "text/javascript" src="chat.js">
+    
+</script>
+    </head>
+    <body>
+<div class="container">
+    <div class="header">
+        <h1>WebChat</h1>
+    </div>
+    <div class="body">
+        <div id="chatBody">
+            <p class="message">hello</p>
+        <p id="gh" class="message user_message">Hi</p>
+    </div>
+        
+    </div>
+    <div class="footer">
+            <input type="text" id="chatInput">
+          <button>
+                <img class="sendicon" src="download.png" alt="send icon" onclick="sendMsg()">
+            </button>
     </div>
 </div>
     </body>
