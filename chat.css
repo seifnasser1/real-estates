@@ -5,12 +5,12 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'Times New Roman';
     box-sizing: border-box;
 }
 body{
      height: 100vh; /*vh represents the viewport-percentage length unit based on the browser default viewport size */
-    background-color: aquamarine;
+    background-color: #e6f5ff;
     display: flex;
     justify-content: center;
     align-items: center;
