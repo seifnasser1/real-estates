@@ -11,7 +11,7 @@
 }
 body{
      height: 100vh; /*vh represents the viewport-percentage length unit based on the browser default viewport size */
-    background-color: e6f5ff;
+    background-color: #e6f5ff;
     display: flex;
     justify-content: center;
     align-items: center;
